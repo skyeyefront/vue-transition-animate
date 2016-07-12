@@ -1,0 +1,55 @@
+{
+    "name": "skyeye-vue-transition-animate",
+    "version": "1.0.0",
+    "description": "自定义 transition 动画",
+    "main": "dist/skyeye-vue-transition-animate.min.js",
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1",
+        "dev": "node build/dev.js",
+        "pro": "node build/pro.js",
+        "examplespro": "node build/examples.pro.js"
+    },
+    "repository": {
+        "type": "git",
+        "url": ""
+    },
+    "keywords": [
+        "vue",
+        "transition"
+    ],
+    "author": "leijunping@360",
+    "license": "ISC",
+    "devDependencies": {
+        "babel-core": "^6.9.0",
+        "babel-eslint": "^6.0.4",
+        "babel-loader": "^6.2.4",
+        "babel-preset-es2015": "^6.9.0",
+        "css-loader": "^0.23.1",
+        "eslint": "^2.10.2",
+        "eslint-config-standard": "^5.3.1",
+        "eslint-friendly-formatter": "^2.0.4",
+        "eslint-loader": "^1.3.0",
+        "eslint-plugin-html": "^1.4.0",
+        "eslint-plugin-promise": "^1.1.0",
+        "eslint-plugin-standard": "^1.3.2",
+        "file-loader": "^0.8.5",
+        "highlight.js": "^9.4.0",
+        "html-loader": "^0.4.3",
+        "jquery": "^2.2.4",
+        "less": "^2.7.1",
+        "less-loader": "^2.2.3",
+        "ora": "^0.2.1",
+        "style-loader": "^0.13.1",
+        "url-loader": "^0.5.7",
+        "vue": "^1.0.24",
+        "webpack": "^1.13.0",
+        "webpack-dev-server": "^1.14.1",
+        "webpack-merge": "^0.12.0"
+    },
+    "dependencies": {},
+    "_addons": {
+        "filename": "skyeye-vue-transition-animate.min.js",
+        "library": "skyeyeTransitionAnimate",
+        "group": "360 SkyEye FrontEnd"
+    }
+}
