@@ -49,26 +49,26 @@ transitionLeaveCancelled
 ### 安装
 
 ```
-如下‘FILE_PATH’代表vue.directive.check的文件路径
+如下‘FILE_PATH’代表vue-transition-animate的文件路径
 // 全局
 <script src="FILE_PATH"></script>
-Vue.use(VueDirectiveCheck, options)
+Vue.use(VueTransitionAnimate)
 
 // AMD
-define([FILE_PATH], function(VueDirectiveCheck){
-    Vue.use(VueDirectiveCheck, options)
+define([FILE_PATH], function(VueTransitionAnimate){
+    Vue.use(VueTransitionAnimate)
 })
-require([FILE_PATH], function(VueDirectiveCheck){
-    Vue.use(VueDirectiveCheck, options)
+require([FILE_PATH], function(VueTransitionAnimate){
+    Vue.use(VueTransitionAnimate)
 })
 
 // CommonJS
-var VueDirectiveCheck = require(FILE_PATH)
-Vue.use(VueDirectiveCheck, options)
+var VueTransitionAnimate = require(FILE_PATH)
+Vue.use(VueTransitionAnimate)
 
 // ES6
-import VueDirectiveCheck from FILE_PATH
-Vue.use(VueDirectiveCheck, options)
+import VueTransitionAnimate from FILE_PATH
+Vue.use(VueTransitionAnimate)
 
 ```
 ### 示例运行
