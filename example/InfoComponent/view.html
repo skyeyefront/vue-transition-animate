@@ -1,0 +1,41 @@
+<div class="container">
+    <section class="{{ style.fcenter }}">
+        <span class="{{ style.logo }}"></span>
+        <h1 class="{{ style.brand }}">SkyEye前端插件开发“脚手架”</h1>
+        <h3>速速去开始你的插件编写...</h3>
+    </section>
+    <div class="page-header">
+        <h1>基础信息</h1>
+    </div>
+    <ul class="list-group {{ style['info-base'] }}">
+        <li class="list-group-item">
+            <span class="label label-info">项目名称</span> {{ name }}
+        </li>
+        <li class="list-group-item">
+            <span class="label label-info">项目描述</span> {{ description }}
+        </li>
+        <li class="list-group-item">
+            <span class="label label-info">作者</span> {{ author }}
+        </li>
+        <li class="list-group-item">
+            <span class="label label-info">组织</span> {{ addons.group }}
+        </li>
+        <li class="list-group-item">
+            <span class="label label-info">插件（库）名</span> {{ addons.library }}
+        </li>
+        <li class="list-group-item">
+            <span class="label label-info">文件名</span> {{ addons.filename }}
+        </li>
+        <li class="list-group-item">
+            <span class="label label-info">版本号</span> {{ version }}
+        </li>
+    </ul>
+    <div class="page-header">
+        <h1>依赖环境信息</h1>
+    </div>
+    <ul class="list-group">
+        <li class="list-group-item" v-for="(k, v) in dependencies">
+            <span class="badge">{{ v }}</span> {{ k }}
+        </li>
+    </ul>
+</div>

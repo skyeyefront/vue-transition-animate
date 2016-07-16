@@ -1,17 +1,12 @@
-var ora = require('ora')
 var webpack = require('webpack')
 var config = require('./webpack.pro.config.js')
 var compiler = webpack(config)
 
 console.log(
-  '  发布模式: Here we go !!!\n'
+  '\n发布模式:\n'
 )
 
-var spinner = ora('玩儿命编译打包中 ...')
-spinner.start()
-
 compiler.run(function (err, stats) {
-  spinner.stop()
   if (err) {
     console.log('[ERR] =>\n', err, '\n')
     throw err
@@ -23,13 +18,13 @@ compiler.run(function (err, stats) {
         timings: true,
         assets: true,
         colors: true,
-        modules: true,
-        children: true,
-        chunks: true,
-        chunkOrigins: true,
-        chunkModules: true,
+        modules: false,
+        children: false,
+        chunks: false,
+        chunkOrigins: false,
+        chunkModules: false,
         errorDetails: true
       }) + '\n'
     )
   }
-});
+})

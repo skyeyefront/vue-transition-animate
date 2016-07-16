@@ -1,0 +1,7 @@
+<div id="{{style.SkyEyeApp}}">
+    <div class="info-component">
+        <button class="btn btn-default {{style['info-btn']}}" @click="showInfo" v-show="active == 'example'">组件信息</button>
+        <button class="btn btn-default {{style['info-btn']}}" @click="back" v-show="active == 'infoComponent'">返回</button>
+    </div>
+    <component :is="active"></component>
+</div>

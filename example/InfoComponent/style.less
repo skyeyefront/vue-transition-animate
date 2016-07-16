@@ -1,0 +1,23 @@
+.logo {
+  display: inline-block;
+  width: 116px;
+  height: 116px;
+  background: url('../../assets/images/favicon.png') no-repeat left;
+}
+
+.brand {
+  color: #173075;
+}
+
+.fcenter {
+  text-align: center;
+}
+
+.info-base {
+  :global(.list-group-item) {
+    text-align: right;
+    :global(.label) {
+      float: left;
+    }
+  }
+}

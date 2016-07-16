@@ -1,0 +1,131 @@
+<div id="demo" class="{{style.container}}">
+    <h1>自定义过渡</h1>
+    <h2>********需要借助animate.css动画库************</h2>
+    <p>在使用v-if, v-show,v-for或者插入删除元素的时候,transition动画会自动生效</p>
+    <section class="{{style['animate-section']}}">
+        <b>fade动画</b>
+        <div class="{{style['animate-block']}}">
+            <div class="fade-lr {{style.div}}">
+                <p>fadeLR</p>
+                <button type="button" class="btn btn-default" @click="toggle('isShowFade','lr')">toggle</button>
+                <div v-if="isShowFade.lr" class="animated {{style['animate-element']}}" transition="fadeLR">animate.css</div>
+            </div>
+            <div class="fade-rl {{style.div}}">
+                <p>fadeRL</p>
+                <button type="button" class="btn btn-default" @click="toggle('isShowFade','rl')">toggle</button>
+                <div v-if="isShowFade.rl" class="animated {{style['animate-element']}}" transition="fadeRL">animate.css</div>
+            </div>
+            <div class="fade-ud {{style.div}}">
+                <p>fadeUD</p>
+                <button type="button" class="btn btn-default" @click="toggle('isShowFade','ud')">toggle</button>
+                <div v-if="isShowFade.ud" class="animated {{style['animate-element']}}" transition="fadeUD">animate.css</div>
+            </div>
+            <div class="fade-du {{style.div}}">
+                <p>fadeDU</p>
+                <button type="button" class="btn btn-default" @click="toggle('isShowFade','du')">toggle</button>
+                <div v-if="isShowFade.du" class="animated {{style['animate-element']}}" transition="fadeDU">animate.css</div>
+            </div>
+        </div>
+    </section>
+
+    <section class="{{style['animate-section']}}">
+        <b>bounce动画</b>
+        <div class="{{style['animate-block']}}">
+            <div class="bounce-lr {{style.div}}">
+                <p>bounceLR</p>
+                <button type="button" class="btn btn-default" @click="toggle('isShowBounce','lr')">toggle</button>
+                <div v-if="isShowBounce.lr" class="animated {{style['animate-element']}}" transition="bounceLR">animate.css</div>
+            </div>
+            <div class="bounce-rl {{style.div}}">
+                <p>bounceRL</p>
+                <button type="button" class="btn btn-default" @click="toggle('isShowBounce','rl')">toggle</button>
+                <div v-if="isShowBounce.rl" class="animated {{style['animate-element']}}" transition="bounceRL">animate.css</div>
+            </div>
+            <div class="bounce-ud {{style.div}}">
+                <p>bounceUD</p>
+                <button type="button" class="btn btn-default" @click="toggle('isShowBounce','ud')">toggle</button>
+                <div v-if="isShowBounce.ud" class="animated {{style['animate-element']}}" transition="bounceUD">animate.css</div>
+            </div>
+            <div class="bounce-du {{style.div}}">
+                <p>bounceDU</p>
+                <button type="button" class="btn btn-default" @click="toggle('isShowBounce','du')">toggle</button>
+                <div v-if="isShowBounce.du" class="animated {{style['animate-element']}}" transition="bounceDU">animate.css</div>
+            </div>
+        </div>
+    </section>
+
+    <section class="{{style['animate-section']}}">
+        <b>slide动画</b>
+        <div class="{{style['animate-block']}}">
+            <div class="slide-lr {{style.div}}">
+                <p>slideLR</p>
+                <button type="button" class="btn btn-default" @click="toggle('isShowSlide','lr')">toggle</button>
+                <div v-if="isShowSlide.lr" class="animated {{style['animate-element']}}" transition="slideLR">animate.css</div>
+            </div>
+            <div class="slide-rl {{style.div}}">
+                <p>slideRL</p>
+                <button type="button" class="btn btn-default" @click="toggle('isShowSlide','rl')">toggle</button>
+                <div v-if="isShowSlide.rl" class="animated {{style['animate-element']}}" transition="slideRL">animate.css</div>
+            </div>
+            <div class="slide-ud {{style.div}}">
+                <p>slideUD</p>
+                <button type="button" class="btn btn-default" @click="toggle('isShowSlide','ud')">toggle</button>
+                <div v-if="isShowSlide.ud" class="animated {{style['animate-element']}}" transition="slideUD">animate.css</div>
+            </div>
+            <div class="slide-du {{style.div}}">
+                <p>slideDU</p>
+                <button type="button" class="btn btn-default" @click="toggle('isShowSlide','du')">toggle</button>
+                <div v-if="isShowSlide.du" class="animated {{style['animate-element']}}" transition="slideDU">animate.css</div>
+            </div>
+        </div>
+    </section>
+
+    <section class="{{style['animate-section']}}">
+        <b>flip动画</b>
+        <div class="{{style['animate-block']}}">
+            <div class="flip-x {{style.div}}">
+                <p>flipX</p>
+                <button type="button" class="btn btn-default" @click="toggle('isShowFlip','x')">toggle</button>
+                <div v-if="isShowFlip.x" class="animated {{style['animate-element']}}" transition="flipX">animate.css</div>
+            </div>
+            <div class="flip-y {{style.div}}">
+                <p>flipY</p>
+                <button type="button" class="btn btn-default" @click="toggle('isShowFlip','y')">toggle</button>
+                <div v-if="isShowFlip.y" class="animated {{style['animate-element']}}" transition="flipY">animate.css</div>
+            </div>
+        </div>
+    </section>
+
+    <section class="{{style['animate-section']}}">
+        <b>zoom动画</b>
+        <div class="{{style['animate-block']}}">
+            <div class="zoom {{style.div}}">
+                <p>zoom</p>
+                <button type="button" class="btn btn-default" @click="toggle('isShowZoom','zoom')">toggle</button>
+                <div v-if="isShowZoom.zoom" class="animated {{style['animate-element']}}" transition="zoom">animate.css</div>
+            </div>
+        </div>
+    </section>
+
+    <section class="{{style['animate-section']}}">
+        <b>lightSpeed动画</b>
+        <div class="{{style['animate-block']}}">
+            <div class="light-speed {{style.div}}">
+                <p>lightSpeed</p>
+                <button type="button" class="btn btn-default" @click="toggle('isShowLightSpeed','lightSpeed')">toggle</button>
+                <div v-if="isShowLightSpeed.lightSpeed" class="animated {{style['animate-element']}}" transition="lightSpeed">animate.css</div>
+            </div>
+        </div>
+    </section>
+
+    <section class="{{style['animate-section']}}">
+        <b>roll动画</b>
+        <div class="{{style['animate-block']}}">
+            <div class="roll {{style.div}}">
+                <p>roll</p>
+                <button type="button" class="btn btn-default" @click="toggle('isShowRoll','roll')">toggle</button>
+                <div v-if="isShowRoll.roll" class="animated {{style['animate-element']}}" transition="roll">animate.css</div>
+            </div>
+        </div>
+    </section>
+</div>

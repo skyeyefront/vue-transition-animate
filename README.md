@@ -10,10 +10,11 @@ flip: flipX, slipY
 lightSpeed: lightSpeedIn, lightSpeedOut
 roll: rollIn, rollOut
 zoom: zoomIn, zoomOut
-*其中，L: left*
-*      R: right*
-*      U: up*
-*      D: down*
+*其中，
+*      L: left     *
+*      R: right    *
+*      U: up       *
+*      D: down     *
 分别可以实现相应元素在进入或删除时的动画效果，后续动画类型还会继续扩展
 ```
 
@@ -74,7 +75,7 @@ Vue.use(VueTransitionAnimate)
 ### 示例运行
 
 ```
-运行环境：python2.7, Flask, npm
-进入examples目录执行python demorun.py
+运行环境：node
+进入build目录执行node server.js启动服务
 ```
 

@@ -3,8 +3,7 @@ var config = require('./webpack.dev.config.js')
 var compiler = webpack(config)
 
 console.log(
-  '  开发模式: Here we go !!!\n' +
-  '  请在"examples"目录下运行python demorun.py (Flask)\n'
+  '\n开发模式:\n'
 )
 
 compiler.watch({// watch options:
@@ -37,4 +36,4 @@ compiler.watch({// watch options:
       }) + '\n'
     )
   }
-});
+})
