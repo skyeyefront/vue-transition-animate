@@ -1,9 +1,9 @@
 /*!
  * skyeye-vue-transition-animate
- * Version: 1.1.0
+ * Version: 1.1.3
  * Author: leijunping@360
  * Group: 360 SkyEye FrontEnd
- * Build Time: 7/16/2016, 6:10:36 PM
+ * Build Time: 7/21/2016, 3:42:19 PM
  */
 /******/ (function(modules) { // webpackBootstrap
 /******/ 	// install a JSONP callback for chunk loading
@@ -83,7 +83,7 @@
 /******/ 			script.charset = 'utf-8';
 /******/ 			script.async = true;
 
-/******/ 			script.src = __webpack_require__.p + "" + ({"0":"commons","1":"index"}[chunkId]||chunkId) + "." + {"0":"4ca52987","1":"1ae53b62"}[chunkId] + ".js";
+/******/ 			script.src = __webpack_require__.p + "" + ({"0":"commons","1":"index"}[chunkId]||chunkId) + "." + {"0":"b159df22","1":"b7e78957"}[chunkId] + ".js";
 /******/ 			head.appendChild(script);
 /******/ 		}
 /******/ 	};
@@ -113,7 +113,7 @@
 	__webpack_require__(56);
 	__webpack_require__(159);
 	__webpack_require__(161);
-	__webpack_require__(43);
+	__webpack_require__(41);
 	module.exports = __webpack_require__(209);
 
 
@@ -9679,9 +9679,7 @@
 /* 38 */,
 /* 39 */,
 /* 40 */,
-/* 41 */,
-/* 42 */,
-/* 43 */
+/* 41 */
 /***/ function(module, exports, __webpack_require__) {
 
 	/* WEBPACK VAR INJECTION */(function(global, process, jQuery) {/*!
@@ -19758,10 +19756,10 @@
 	}, 0);
 
 	module.exports = Vue;
-	/* WEBPACK VAR INJECTION */}.call(exports, (function() { return this; }()), __webpack_require__(44), __webpack_require__(3)))
+	/* WEBPACK VAR INJECTION */}.call(exports, (function() { return this; }()), __webpack_require__(42), __webpack_require__(3)))
 
 /***/ },
-/* 44 */
+/* 42 */
 /***/ function(module, exports) {
 
 	// shim for using process in browser
@@ -19886,6 +19884,8 @@
 
 
 /***/ },
+/* 43 */,
+/* 44 */,
 /* 45 */,
 /* 46 */,
 /* 47 */,

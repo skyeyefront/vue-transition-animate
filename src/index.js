@@ -1,3 +1,4 @@
+import 'animate.css/animate.css'
 export default {
   install: function (Vue) {
     let _factory = function (enterClass, leaveClass) {

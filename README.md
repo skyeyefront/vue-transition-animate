@@ -75,7 +75,7 @@ Vue.use(VueTransitionAnimate)
 ### 示例运行
 
 ```
-运行环境：node
+运行环境：node, vue 1.0.14以上
 进入build目录执行node server.js启动服务
 ```
 

@@ -1,9 +1,9 @@
 /*!
  * skyeye-vue-transition-animate
- * Version: 1.1.0
+ * Version: 1.1.3
  * Author: leijunping@360
  * Group: 360 SkyEye FrontEnd
- * Build Time: 7/16/2016, 6:10:36 PM
+ * Build Time: 7/21/2016, 3:42:19 PM
  */
 webpackJsonp([0],[
 /* 0 */
@@ -16,8 +16,6 @@ webpackJsonp([0],[
 	__webpack_require__(15);
 
 	__webpack_require__(24);
-
-	__webpack_require__(32);
 
 /***/ },
 /* 1 */
@@ -2472,19 +2470,6 @@ webpackJsonp([0],[
 /* 22 */,
 /* 23 */,
 /* 24 */
-/***/ function(module, exports) {
-
-	// removed by extract-text-webpack-plugin
-
-/***/ },
-/* 25 */,
-/* 26 */,
-/* 27 */,
-/* 28 */,
-/* 29 */,
-/* 30 */,
-/* 31 */,
-/* 32 */
 /***/ function(module, exports) {
 
 	// removed by extract-text-webpack-plugin

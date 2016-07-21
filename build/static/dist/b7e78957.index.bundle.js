@@ -1,9 +1,9 @@
 /*!
  * skyeye-vue-transition-animate
- * Version: 1.1.0
+ * Version: 1.1.3
  * Author: leijunping@360
  * Group: 360 SkyEye FrontEnd
- * Build Time: 7/16/2016, 6:10:36 PM
+ * Build Time: 7/21/2016, 3:42:19 PM
  */
 webpackJsonp([1],[
 /* 0 */
@@ -11,11 +11,11 @@ webpackJsonp([1],[
 
 	'use strict';
 
-	var _App = __webpack_require__(34);
+	var _App = __webpack_require__(32);
 
 	var _App2 = _interopRequireDefault(_App);
 
-	var _vue = __webpack_require__(43);
+	var _vue = __webpack_require__(41);
 
 	var _vue2 = _interopRequireDefault(_vue);
 
@@ -70,9 +70,7 @@ webpackJsonp([1],[
 /* 29 */,
 /* 30 */,
 /* 31 */,
-/* 32 */,
-/* 33 */,
-/* 34 */
+/* 32 */
 /***/ function(module, exports, __webpack_require__) {
 
 	'use strict';
@@ -81,27 +79,27 @@ webpackJsonp([1],[
 	  value: true
 	});
 
-	var _App = __webpack_require__(35);
+	var _App = __webpack_require__(33);
 
 	var _App2 = _interopRequireDefault(_App);
 
-	var _App3 = __webpack_require__(37);
+	var _App3 = __webpack_require__(35);
 
 	var _App4 = _interopRequireDefault(_App3);
 
-	var _index = __webpack_require__(38);
+	var _index = __webpack_require__(36);
 
 	var _index2 = _interopRequireDefault(_index);
 
-	var _vue = __webpack_require__(43);
+	var _vue = __webpack_require__(41);
 
 	var _vue2 = _interopRequireDefault(_vue);
 
-	var _index3 = __webpack_require__(45);
+	var _index3 = __webpack_require__(43);
 
 	var _index4 = _interopRequireDefault(_index3);
 
-	var _index5 = __webpack_require__(49);
+	var _index5 = __webpack_require__(47);
 
 	var _index6 = _interopRequireDefault(_index5);
 
@@ -138,13 +136,13 @@ webpackJsonp([1],[
 	};
 
 /***/ },
-/* 35 */
+/* 33 */
 /***/ function(module, exports, __webpack_require__) {
 
 	// style-loader: Adds some css to the DOM by adding a <style> tag
 
 	// load the styles
-	var content = __webpack_require__(36);
+	var content = __webpack_require__(34);
 	if(typeof content === 'string') content = [[module.id, content, '']];
 	// add the styles to the DOM
 	var update = __webpack_require__(23)(content, {});
@@ -164,7 +162,7 @@ webpackJsonp([1],[
 	}
 
 /***/ },
-/* 36 */
+/* 34 */
 /***/ function(module, exports, __webpack_require__) {
 
 	exports = module.exports = __webpack_require__(17)();
@@ -181,13 +179,13 @@ webpackJsonp([1],[
 	};
 
 /***/ },
-/* 37 */
+/* 35 */
 /***/ function(module, exports) {
 
 	module.exports = "<div id=\"{{style.SkyEyeApp}}\">\n    <div class=\"info-component\">\n        <button class=\"btn btn-default {{style['info-btn']}}\" @click=\"showInfo\" v-show=\"active == 'example'\">组件信息</button>\n        <button class=\"btn btn-default {{style['info-btn']}}\" @click=\"back\" v-show=\"active == 'infoComponent'\">返回</button>\n    </div>\n    <component :is=\"active\"></component>\n</div>\n";
 
 /***/ },
-/* 38 */
+/* 36 */
 /***/ function(module, exports, __webpack_require__) {
 
 	'use strict';
@@ -196,17 +194,17 @@ webpackJsonp([1],[
 	  value: true
 	});
 
-	var _style = __webpack_require__(39);
+	var _style = __webpack_require__(37);
 
 	var _style2 = _interopRequireDefault(_style);
 
-	var _view = __webpack_require__(42);
+	var _view = __webpack_require__(40);
 
 	var _view2 = _interopRequireDefault(_view);
 
 	function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
-	var PACKAGE_JSON = ({"name":"skyeye-vue-transition-animate","version":"1.1.0","description":"自定义 transition 动画","main":"dist/skyeye-vue-transition-animate.min.js","scripts":{"test":"echo \"Error: no test specified\" && exit 1","dev":"grunt && node build/dev.js","pro":"node build/pro.js","start":"node build/server.js"},"repository":{"type":"git","url":"https://github.com/skyeyefront/vue-transition-animate.git"},"keywords":["vue","transition"],"author":"leijunping@360","license":"ISC","devDependencies":{"autoprefixer":"~6.3.6","babel-core":"^6.9.0","babel-eslint":"^6.0.4","babel-loader":"^6.2.4","babel-preset-es2015":"^6.9.0","css-loader":"^0.23.1","eslint":"^2.10.2","eslint-config-standard":"^5.3.1","eslint-friendly-formatter":"^2.0.4","eslint-loader":"^1.3.0","eslint-plugin-html":"^1.4.0","eslint-plugin-promise":"^1.1.0","eslint-plugin-standard":"^1.3.2","express":"^4.14.0","extract-text-webpack-plugin":"^1.0.1","file-loader":"^0.8.5","grunt":"~1.0.1","grunt-contrib-clean":"~1.0.0","grunt-contrib-copy":"~1.0.0","html-loader":"^0.4.3","html-webpack-plugin":"^2.21.0","imports-loader":"~0.6.5","less":"^2.7.1","less-loader":"^2.2.3","mockjs":"^1.0.1-beta2","ora":"^0.2.1","path":"^0.12.7","postcss-loader":"~0.9.1","precss":"~1.4.0","progress":"~1.1.8","socket.io":"^1.4.8","style-loader":"^0.13.1","stylelint-config-standard":"^10.0.0","stylelint-webpack-plugin":"^0.2.0","time-grunt":"~1.3.0","url-loader":"^0.5.7","webpack":"^1.13.0","webpack-dev-server":"^1.14.1","webpack-merge":"^0.12.0","worker-loader":"~0.7.0"},"dependencies":{"animate.css":"^3.5.1","bootstrap":"^3.3.6","d3":"^3.5.17","font-awesome":"^4.6.3","highcharts":"^4.2.5","jquery":"~2.1.4","jquery-ui":"^1.10.5","lodash":"^4.13.1","moment":"^2.13.0","postal":"^2.0.4","socket.io-client":"^1.4.6","vue":"^1.0.24","vuex":"^0.6.3"},"_addons":{"filename":"skyeye-vue-transition-animate.min.js","library":"skyeye-vue-transition-animate","group":"360 SkyEye FrontEnd"}});
+	var PACKAGE_JSON = ({"name":"skyeye-vue-transition-animate","version":"1.1.3","description":"自定义 transition 动画","main":"dist/skyeye-vue-transition-animate.min.js","scripts":{"test":"echo \"Error: no test specified\" && exit 1","dev":"grunt && node build/dev.js","pro":"node build/pro.js","start":"node build/server.js"},"repository":{"type":"git","url":"https://github.com/skyeyefront/vue-transition-animate.git"},"keywords":["vue","transition"],"author":"leijunping@360","license":"ISC","devDependencies":{"autoprefixer":"~6.3.6","babel-core":"^6.9.0","babel-eslint":"^6.0.4","babel-loader":"^6.2.4","babel-preset-es2015":"^6.9.0","css-loader":"^0.23.1","eslint":"^2.10.2","eslint-config-standard":"^5.3.1","eslint-friendly-formatter":"^2.0.4","eslint-loader":"^1.3.0","eslint-plugin-html":"^1.4.0","eslint-plugin-promise":"^1.1.0","eslint-plugin-standard":"^1.3.2","express":"^4.14.0","extract-text-webpack-plugin":"^1.0.1","file-loader":"^0.8.5","grunt":"~1.0.1","grunt-contrib-clean":"~1.0.0","grunt-contrib-copy":"~1.0.0","html-loader":"^0.4.3","html-webpack-plugin":"^2.21.0","imports-loader":"~0.6.5","less":"^2.7.1","less-loader":"^2.2.3","mockjs":"^1.0.1-beta2","ora":"^0.2.1","path":"^0.12.7","postcss-loader":"~0.9.1","precss":"~1.4.0","progress":"~1.1.8","socket.io":"^1.4.8","style-loader":"^0.13.1","stylelint-config-standard":"^10.0.0","stylelint-webpack-plugin":"^0.2.0","time-grunt":"~1.3.0","url-loader":"^0.5.7","webpack":"^1.13.0","webpack-dev-server":"^1.14.1","webpack-merge":"^0.12.0","worker-loader":"~0.7.0"},"dependencies":{"animate.css":"^3.5.1","bootstrap":"^3.3.6","d3":"^3.5.17","font-awesome":"^4.6.3","highcharts":"^4.2.5","jquery":"~2.1.4","jquery-ui":"^1.10.5","lodash":"^4.13.1","moment":"^2.13.0","postal":"^2.0.4","socket.io-client":"^1.4.6","vue":"^1.0.24","vuex":"^0.6.3"},"_addons":{"filename":"skyeye-vue-transition-animate.min.js","library":"skyeye-vue-transition-animate","group":"360 SkyEye FrontEnd"}});
 
 	exports.default = {
 	  template: _view2.default,
@@ -224,13 +222,13 @@ webpackJsonp([1],[
 	};
 
 /***/ },
-/* 39 */
+/* 37 */
 /***/ function(module, exports, __webpack_require__) {
 
 	// style-loader: Adds some css to the DOM by adding a <style> tag
 
 	// load the styles
-	var content = __webpack_require__(40);
+	var content = __webpack_require__(38);
 	if(typeof content === 'string') content = [[module.id, content, '']];
 	// add the styles to the DOM
 	var update = __webpack_require__(23)(content, {});
@@ -250,7 +248,7 @@ webpackJsonp([1],[
 	}
 
 /***/ },
-/* 40 */
+/* 38 */
 /***/ function(module, exports, __webpack_require__) {
 
 	exports = module.exports = __webpack_require__(17)();
@@ -258,7 +256,7 @@ webpackJsonp([1],[
 
 
 	// module
-	exports.push([module.id, ".logo-3qMzIfi {\n  display: inline-block;\n  width: 116px;\n  height: 116px;\n  background: url(" + __webpack_require__(41) + ") no-repeat left;\n}\n.brand-31SDi6L {\n  color: #173075;\n}\n.fcenter-6Wc-ltQ {\n  text-align: center;\n}\n.info-base-2xNqsnR .list-group-item {\n  text-align: right;\n}\n.info-base-2xNqsnR .list-group-item .label {\n  float: left;\n}\n", ""]);
+	exports.push([module.id, ".logo-3qMzIfi {\n  display: inline-block;\n  width: 116px;\n  height: 116px;\n  background: url(" + __webpack_require__(39) + ") no-repeat left;\n}\n.brand-31SDi6L {\n  color: #173075;\n}\n.fcenter-6Wc-ltQ {\n  text-align: center;\n}\n.info-base-2xNqsnR .list-group-item {\n  text-align: right;\n}\n.info-base-2xNqsnR .list-group-item .label {\n  float: left;\n}\n", ""]);
 
 	// exports
 	exports.locals = {
@@ -269,21 +267,21 @@ webpackJsonp([1],[
 	};
 
 /***/ },
-/* 41 */
+/* 39 */
 /***/ function(module, exports, __webpack_require__) {
 
 	module.exports = __webpack_require__.p + "images/favicon.69b550d.png";
 
 /***/ },
-/* 42 */
+/* 40 */
 /***/ function(module, exports) {
 
 	module.exports = "<div class=\"container\">\n    <section class=\"{{ style.fcenter }}\">\n        <span class=\"{{ style.logo }}\"></span>\n        <h1 class=\"{{ style.brand }}\">SkyEye前端插件开发“脚手架”</h1>\n        <h3>速速去开始你的插件编写...</h3>\n    </section>\n    <div class=\"page-header\">\n        <h1>基础信息</h1>\n    </div>\n    <ul class=\"list-group {{ style['info-base'] }}\">\n        <li class=\"list-group-item\">\n            <span class=\"label label-info\">项目名称</span> {{ name }}\n        </li>\n        <li class=\"list-group-item\">\n            <span class=\"label label-info\">项目描述</span> {{ description }}\n        </li>\n        <li class=\"list-group-item\">\n            <span class=\"label label-info\">作者</span> {{ author }}\n        </li>\n        <li class=\"list-group-item\">\n            <span class=\"label label-info\">组织</span> {{ addons.group }}\n        </li>\n        <li class=\"list-group-item\">\n            <span class=\"label label-info\">插件（库）名</span> {{ addons.library }}\n        </li>\n        <li class=\"list-group-item\">\n            <span class=\"label label-info\">文件名</span> {{ addons.filename }}\n        </li>\n        <li class=\"list-group-item\">\n            <span class=\"label label-info\">版本号</span> {{ version }}\n        </li>\n    </ul>\n    <div class=\"page-header\">\n        <h1>依赖环境信息</h1>\n    </div>\n    <ul class=\"list-group\">\n        <li class=\"list-group-item\" v-for=\"(k, v) in dependencies\">\n            <span class=\"badge\">{{ v }}</span> {{ k }}\n        </li>\n    </ul>\n</div>\n";
 
 /***/ },
-/* 43 */,
-/* 44 */,
-/* 45 */
+/* 41 */,
+/* 42 */,
+/* 43 */
 /***/ function(module, exports, __webpack_require__) {
 
 	'use strict';
@@ -292,11 +290,11 @@ webpackJsonp([1],[
 	  value: true
 	});
 
-	var _style = __webpack_require__(46);
+	var _style = __webpack_require__(44);
 
 	var _style2 = _interopRequireDefault(_style);
 
-	var _view = __webpack_require__(48);
+	var _view = __webpack_require__(46);
 
 	var _view2 = _interopRequireDefault(_view);
 
@@ -355,13 +353,13 @@ webpackJsonp([1],[
 	};
 
 /***/ },
-/* 46 */
+/* 44 */
 /***/ function(module, exports, __webpack_require__) {
 
 	// style-loader: Adds some css to the DOM by adding a <style> tag
 
 	// load the styles
-	var content = __webpack_require__(47);
+	var content = __webpack_require__(45);
 	if(typeof content === 'string') content = [[module.id, content, '']];
 	// add the styles to the DOM
 	var update = __webpack_require__(23)(content, {});
@@ -381,7 +379,7 @@ webpackJsonp([1],[
 	}
 
 /***/ },
-/* 47 */
+/* 45 */
 /***/ function(module, exports, __webpack_require__) {
 
 	exports = module.exports = __webpack_require__(17)();
@@ -401,20 +399,23 @@ webpackJsonp([1],[
 	};
 
 /***/ },
-/* 48 */
+/* 46 */
 /***/ function(module, exports) {
 
 	module.exports = "<div id=\"demo\" class=\"{{style.container}}\">\n    <h1>自定义过渡</h1>\n    <h2>********需要借助animate.css动画库************</h2>\n    <p>在使用v-if, v-show,v-for或者插入删除元素的时候,transition动画会自动生效</p>\n    <section class=\"{{style['animate-section']}}\">\n        <b>fade动画</b>\n        <div class=\"{{style['animate-block']}}\">\n            <div class=\"fade-lr {{style.div}}\">\n                <p>fadeLR</p>\n                <button type=\"button\" class=\"btn btn-default\" @click=\"toggle('isShowFade','lr')\">toggle</button>\n                <div v-if=\"isShowFade.lr\" class=\"animated {{style['animate-element']}}\" transition=\"fadeLR\">animate.css</div>\n            </div>\n            <div class=\"fade-rl {{style.div}}\">\n                <p>fadeRL</p>\n                <button type=\"button\" class=\"btn btn-default\" @click=\"toggle('isShowFade','rl')\">toggle</button>\n                <div v-if=\"isShowFade.rl\" class=\"animated {{style['animate-element']}}\" transition=\"fadeRL\">animate.css</div>\n            </div>\n            <div class=\"fade-ud {{style.div}}\">\n                <p>fadeUD</p>\n                <button type=\"button\" class=\"btn btn-default\" @click=\"toggle('isShowFade','ud')\">toggle</button>\n                <div v-if=\"isShowFade.ud\" class=\"animated {{style['animate-element']}}\" transition=\"fadeUD\">animate.css</div>\n            </div>\n            <div class=\"fade-du {{style.div}}\">\n                <p>fadeDU</p>\n                <button type=\"button\" class=\"btn btn-default\" @click=\"toggle('isShowFade','du')\">toggle</button>\n                <div v-if=\"isShowFade.du\" class=\"animated {{style['animate-element']}}\" transition=\"fadeDU\">animate.css</div>\n            </div>\n        </div>\n    </section>\n\n    <section class=\"{{style['animate-section']}}\">\n        <b>bounce动画</b>\n        <div class=\"{{style['animate-block']}}\">\n            <div class=\"bounce-lr {{style.div}}\">\n                <p>bounceLR</p>\n                <button type=\"button\" class=\"btn btn-default\" @click=\"toggle('isShowBounce','lr')\">toggle</button>\n                <div v-if=\"isShowBounce.lr\" class=\"animated {{style['animate-element']}}\" transition=\"bounceLR\">animate.css</div>\n            </div>\n            <div class=\"bounce-rl {{style.div}}\">\n                <p>bounceRL</p>\n                <button type=\"button\" class=\"btn btn-default\" @click=\"toggle('isShowBounce','rl')\">toggle</button>\n                <div v-if=\"isShowBounce.rl\" class=\"animated {{style['animate-element']}}\" transition=\"bounceRL\">animate.css</div>\n            </div>\n            <div class=\"bounce-ud {{style.div}}\">\n                <p>bounceUD</p>\n                <button type=\"button\" class=\"btn btn-default\" @click=\"toggle('isShowBounce','ud')\">toggle</button>\n                <div v-if=\"isShowBounce.ud\" class=\"animated {{style['animate-element']}}\" transition=\"bounceUD\">animate.css</div>\n            </div>\n            <div class=\"bounce-du {{style.div}}\">\n                <p>bounceDU</p>\n                <button type=\"button\" class=\"btn btn-default\" @click=\"toggle('isShowBounce','du')\">toggle</button>\n                <div v-if=\"isShowBounce.du\" class=\"animated {{style['animate-element']}}\" transition=\"bounceDU\">animate.css</div>\n            </div>\n        </div>\n    </section>\n\n    <section class=\"{{style['animate-section']}}\">\n        <b>slide动画</b>\n        <div class=\"{{style['animate-block']}}\">\n            <div class=\"slide-lr {{style.div}}\">\n                <p>slideLR</p>\n                <button type=\"button\" class=\"btn btn-default\" @click=\"toggle('isShowSlide','lr')\">toggle</button>\n                <div v-if=\"isShowSlide.lr\" class=\"animated {{style['animate-element']}}\" transition=\"slideLR\">animate.css</div>\n            </div>\n            <div class=\"slide-rl {{style.div}}\">\n                <p>slideRL</p>\n                <button type=\"button\" class=\"btn btn-default\" @click=\"toggle('isShowSlide','rl')\">toggle</button>\n                <div v-if=\"isShowSlide.rl\" class=\"animated {{style['animate-element']}}\" transition=\"slideRL\">animate.css</div>\n            </div>\n            <div class=\"slide-ud {{style.div}}\">\n                <p>slideUD</p>\n                <button type=\"button\" class=\"btn btn-default\" @click=\"toggle('isShowSlide','ud')\">toggle</button>\n                <div v-if=\"isShowSlide.ud\" class=\"animated {{style['animate-element']}}\" transition=\"slideUD\">animate.css</div>\n            </div>\n            <div class=\"slide-du {{style.div}}\">\n                <p>slideDU</p>\n                <button type=\"button\" class=\"btn btn-default\" @click=\"toggle('isShowSlide','du')\">toggle</button>\n                <div v-if=\"isShowSlide.du\" class=\"animated {{style['animate-element']}}\" transition=\"slideDU\">animate.css</div>\n            </div>\n        </div>\n    </section>\n\n    <section class=\"{{style['animate-section']}}\">\n        <b>flip动画</b>\n        <div class=\"{{style['animate-block']}}\">\n            <div class=\"flip-x {{style.div}}\">\n                <p>flipX</p>\n                <button type=\"button\" class=\"btn btn-default\" @click=\"toggle('isShowFlip','x')\">toggle</button>\n                <div v-if=\"isShowFlip.x\" class=\"animated {{style['animate-element']}}\" transition=\"flipX\">animate.css</div>\n            </div>\n            <div class=\"flip-y {{style.div}}\">\n                <p>flipY</p>\n                <button type=\"button\" class=\"btn btn-default\" @click=\"toggle('isShowFlip','y')\">toggle</button>\n                <div v-if=\"isShowFlip.y\" class=\"animated {{style['animate-element']}}\" transition=\"flipY\">animate.css</div>\n            </div>\n        </div>\n    </section>\n\n    <section class=\"{{style['animate-section']}}\">\n        <b>zoom动画</b>\n        <div class=\"{{style['animate-block']}}\">\n            <div class=\"zoom {{style.div}}\">\n                <p>zoom</p>\n                <button type=\"button\" class=\"btn btn-default\" @click=\"toggle('isShowZoom','zoom')\">toggle</button>\n                <div v-if=\"isShowZoom.zoom\" class=\"animated {{style['animate-element']}}\" transition=\"zoom\">animate.css</div>\n            </div>\n        </div>\n    </section>\n\n    <section class=\"{{style['animate-section']}}\">\n        <b>lightSpeed动画</b>\n        <div class=\"{{style['animate-block']}}\">\n            <div class=\"light-speed {{style.div}}\">\n                <p>lightSpeed</p>\n                <button type=\"button\" class=\"btn btn-default\" @click=\"toggle('isShowLightSpeed','lightSpeed')\">toggle</button>\n                <div v-if=\"isShowLightSpeed.lightSpeed\" class=\"animated {{style['animate-element']}}\" transition=\"lightSpeed\">animate.css</div>\n            </div>\n        </div>\n    </section>\n\n    <section class=\"{{style['animate-section']}}\">\n        <b>roll动画</b>\n        <div class=\"{{style['animate-block']}}\">\n            <div class=\"roll {{style.div}}\">\n                <p>roll</p>\n                <button type=\"button\" class=\"btn btn-default\" @click=\"toggle('isShowRoll','roll')\">toggle</button>\n                <div v-if=\"isShowRoll.roll\" class=\"animated {{style['animate-element']}}\" transition=\"roll\">animate.css</div>\n            </div>\n        </div>\n    </section>\n</div>";
 
 /***/ },
-/* 49 */
-/***/ function(module, exports) {
+/* 47 */
+/***/ function(module, exports, __webpack_require__) {
 
 	'use strict';
 
 	Object.defineProperty(exports, "__esModule", {
 	  value: true
 	});
+
+	__webpack_require__(48);
+
 	exports.default = {
 	  install: function install(Vue) {
 	    var _factory = function _factory(enterClass, leaveClass) {
@@ -500,6 +501,12 @@ webpackJsonp([1],[
 	    Vue.transition('flipY', _factory('flipInY', 'flipOutY'));
 	  }
 	};
+
+/***/ },
+/* 48 */
+/***/ function(module, exports) {
+
+	// removed by extract-text-webpack-plugin
 
 /***/ }
 ]);
